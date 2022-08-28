@@ -93,6 +93,7 @@ public class StartApplication implements CommandLineRunner {
         //storedFunction.start();
 
         startCustomerApp();
+        startBookApp();
         //startBookApp();
         startCustomer();
 
