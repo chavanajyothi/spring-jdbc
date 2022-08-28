@@ -92,8 +92,8 @@ public class StartApplication implements CommandLineRunner {
         //storedProcedure2.start();
         //storedFunction.start();
 
-        //startCustomerApp();
-        //startBookApp();
+        startCustomerApp();
+        startBookApp();
         startCustomer();
 
         //startBookBatchUpdateApp(1000);
