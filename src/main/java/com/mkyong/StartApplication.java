@@ -142,7 +142,7 @@ public class StartApplication implements CommandLineRunner {
     }
     
     void startCustomer() {
-    	//log.info("Creating tables for testing Customer...");
+    	log.info("Creating tables for testing Customer...");
     	jdbcTemplate.execute("DROP TABLE customer IF EXISTS");
         jdbcTemplate.execute("CREATE TABLE customer(" +
                 "id SERIAL, name VARCHAR(255), orderid NUMBER)");
